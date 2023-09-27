@@ -1,0 +1,17 @@
+{
+  "name": "mybiblioteca",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev":"json-server --watch db.json"
+    
+  },
+  "author": "AngieDuran :)",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "json-server": "0.17.3"
+  }
+}

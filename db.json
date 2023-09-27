@@ -1,0 +1,22 @@
+{
+    "libros": [
+      {
+        "titulo": "como hacer feliz a un programador",
+        "fecha": "2020",
+        "autor": "yo",
+        "id": 1
+      },
+      {
+        "titulo": "como hacer feliz a un programador",
+        "fecha": "2020",
+        "autor": "yo",
+        "id": 2
+      },
+      {
+        "titulo": "como hacer feliz a un programador",
+        "fecha": "2020",
+        "autor": "yo",
+        "id": 3
+      }
+    ]
+  }
