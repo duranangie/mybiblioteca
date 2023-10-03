@@ -1,9 +1,7 @@
 import {env} from "../config.js"
 const uri = `${env.ssl + env.hostName}:${env.port}/`;
 
-
-//testear si la uri esta bien programacion defenciva
-
+//testear si la uri esta bien programacion defenciv
 // console.log(uri)
 
 const config = {method:null,headers:{"content-type": "application/json"}};
