@@ -2,10 +2,21 @@
   "categoria": [],
   "editorial": [],
   "estado-libro": [],
-  "libro": [],
+  "libro": [
+    {
+      "titulo": "Prometeo encadenado",
+      "fecha": "2020-01-01",
+      "autorId": 1,
+      "categoriaId": 1,
+      "editorialId": 1,
+      "isbn": "16758",
+      "numPaginacion": 296,
+      "estadoId": 1,
+      "id": 1
+    }
+  ],
   "prestamo": [],
   "reserva": [],
   "autor": [],
   "usuario": []
-  
 }
