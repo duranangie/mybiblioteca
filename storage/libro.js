@@ -44,12 +44,15 @@ const validarDataBasic = (data={})=>{
     if(typeof numPaginacion !== 'number') return {status: 400, message: `El numPaginacion '${numPaginacion}' no cumple con el formato`};
     return data;
 }
-export const getAll = async()=>{
+export const getAll = async ()=>{
     config.method = "GET";
+    console.log("hola")
     // config.body = "";
     let res = await (await fetch(`${uri}/libro`, config)).json();
     return res;
 }
+
+
 export const getOne = async(id)=>{
     config.method = "GET";
     // config.body = "";
@@ -115,16 +118,17 @@ export const putOne = async(obj={})=>{
 
 
 
-// console.log(await post({
-//     titulo:"El olor del miedo", 
-//     fecha: "2023-08-30", 
-//     autorId:1, autaautAuthenticatorAttestationResponse
-//     categoriaId:1, 
-//     editorialId:1, 
-//     isbn:"380554", 
-//     numPaginacion: 552, 
-//     estadoId:1
-// }));
+
+ //console.log(await post({
+ //    titulo:"pride and prejurece", 
+ //    fecha: "2023-08-30", 
+ //    autorId:1, autaautAuthenticatorAttestationResponse,
+ //    categoriaId:1,
+ //    editorialId:1, 
+ //    isbn:"380554", 
+ //    numPaginacion: 552, 
+ //    estadoId:1
+ //}));
 // console.log(await post({
 //     titulo:"FORASTERA", 
 //     fecha: "2006-08-30", 
@@ -157,7 +161,7 @@ export const putOne = async(obj={})=>{
 // }));
 
 
-
 //console.log(await getAll());
+//console.log(await deleteOne(1));
 // console.log(await deleteOne(1));
- //console.log(await putOne({id: 1, limit:"2.0.0", titulo: "Miguel", isbn: "456", numPaginacion:700}));
+//console.log(await putOne({id: 1, limit:"2.0.0", titulo: "Miguel", isbn: "456", numPaginacion:700}));
