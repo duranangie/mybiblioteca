@@ -4,7 +4,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "dev": "json-server --watch data/db.json --port 5004 --host 127.0.0.1"
+    "dev": "json-server --watch data/db.json --port 5010 --host 127.0.0.1"
   },
   "author": "ani",
   "license": "ISC",
@@ -12,5 +12,13 @@
   "devDependencies": {
     "json-server": "0.17.3"
   },
-  "description": " "
+  "description": " ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duranangie/mybiblioteca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duranangie/mybiblioteca/issues"
+  },
+  "homepage": "https://github.com/duranangie/mybiblioteca#readme"
 }
