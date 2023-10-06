@@ -1,6 +1,6 @@
 import {env} from "../config.js";
 
-const uri = `${env.ssl + env.hotsName}:${env.port}`;
+const uri = `${env.ssl + env.hostName}:${env.port}`;
 const config = {method: undefined, headers: {"Content-Type": "application/json"}};
 
 
@@ -33,6 +33,23 @@ export const post = async(obj={})=>{
     let res = await (await fetch(`${uri}/categoria`, config)).json();
     return res;
 }
-// console.log(post({nombre:"Drama"}));
+
+//ELIMINAR 
+
+
+
+//ACTUALIZAR
+
+
+
+
+
+
+
+
+
+//console.log(await post({nombre:"Horror"}));
 // console.log(post({nombre:"Romance"}));
+console.log(await deleteOne(1));
 // console.log(post({nombre:"Terror"}));
+//console.log(await getAll());
