@@ -1,7 +1,43 @@
 {
-  "categoria": [],
-  "editorial": [],
-  "estado-libro": [],
+  "categoria": [
+    {
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Horror",
+      "id": 3
+    }
+  ],
+  "editorial": [
+    {
+      "nombre": "panamericana",
+      "direccion": "sotomayor",
+      "telefono": "3213779030",
+      "id": 1
+    },
+    {
+      "nombre": "Activo",
+      "descripcion": "El libro se encuentra en biblioteca",
+      "id": 2
+    }
+  ],
+  "estado": [
+    {
+      "nombre": "s",
+      "descripcion": "El libro se encuentra en biblioteca",
+      "id": 1
+    },
+    {
+      "nombre": "activo",
+      "descripcion": "El libro se encuentra en biblioteca",
+      "id": 2
+    }
+  ],
   "libro": [
     {
       "titulo": "Prometeo encadenado",
@@ -15,7 +51,19 @@
       "id": 1
     }
   ],
-  "prestamo": [],
+  "prestamo": [
+    {
+      "fechaPrestamo": "2023-08-30",
+      "estado": "El libro se encuentra en biblioteca",
+      "id": 1
+    },
+    {
+      "fechaPrestamo": "2023-08-30",
+      "fechaDevolucion": "2024-05-21",
+      "estado": "El libro se encuentra en biblioteca",
+      "id": 2
+    }
+  ],
   "reserva": [],
   "autor": [],
   "usuario": []
